@@ -1,0 +1,107 @@
+/* CSS/Mens.css */
+
+/* General styles */
+.women-fashion-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.shopping-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shopping-button:hover {
+  color: black;
+  border: 2px solid white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.header h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.header .more-link {
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(30, 30, 30);
+  text-decoration: underline;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  width: calc(30% - 20px); /* To create a 3-column layout with some spacing */
+  margin-bottom: 20px;
+  padding: 10px;
+  /* background-color: #fff; */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 1200px) {
+  .product-card {
+    width: calc(45% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: calc(45% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .product-card {
+    width: 100%;
+  }
+}

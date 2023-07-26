@@ -1,0 +1,96 @@
+/* Nav.css */
+.nav-menu li a.active {
+  text-decoration: underline 2px;
+  color: grey; /* Change this to your desired active color */
+  /* Add any other styles you want for the active link */
+}
+/* Common styles */
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  margin-right: 10px;
+}
+
+.nav-menu li a {
+  font-weight: bold;
+  border: 2px solid var(--secondary-color);
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 8px;
+  color: var(--primary-color);
+  transition: border-color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  text-decoration: underline 2px var(--primary-color);
+}
+
+.cartimg {
+  width: 50px;
+  margin-right: 10px;
+}
+.cartimg:hover {
+  width: 55px;
+}
+.searchimg {
+  width: 30px;
+  margin-right: 10px;
+}
+.searchimg:hover {
+  width: 35px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .nav-menu {
+    margin-top: 10px;
+  }
+
+  .nav-menu li {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .nav-menu li a {
+    padding: 5px;
+  }
+}

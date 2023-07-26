@@ -1,0 +1,95 @@
+/* ContactSection.css */
+
+/* Common styles for all sections */
+.div {
+  background-color: white;
+}
+.contact-section,
+.section-two {
+  padding: 20px;
+}
+
+.contact-section h2,
+.sell-with-us-section h2,
+.partner-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-section p,
+.sell-with-us-section p,
+.partner-section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Styles for the contact section (on the right) */
+.contact-section {
+  text-align: center;
+}
+
+.contact-section form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section textarea {
+  resize: vertical;
+}
+
+.contact-section button {
+  background-color: black;
+  color: #fff;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.contact-section button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Styles for section two (on the left) */
+.section-two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 1024px) {
+  .contact-section form {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-two {
+    flex-direction: column;
+  }
+
+  .contact-section {
+    order: 2;
+  }
+
+  .contact-section form {
+    max-width: 100%;
+  }
+}

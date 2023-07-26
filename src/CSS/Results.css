@@ -1,0 +1,54 @@
+/* Results.css */
+
+/* Styling for the Search Results section */
+.search-results-section {
+  margin: 20px;
+}
+
+/* Styling for the product cards container */
+.search-results-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Styling for individual product cards */
+.product-cards {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-cards h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-cards .brands {
+  margin: 8px 0;
+}
+
+.product-cards .prices {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.product-cards .product-images {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Add responsive styles using media queries */
+@media (max-width: 768px) {
+  /* Adjust the grid layout for product cards on smaller screens */
+  .search-results-containers {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  /* Additional responsive styles as needed */
+}

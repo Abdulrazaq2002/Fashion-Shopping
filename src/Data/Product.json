@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "name": "Men Classic Denim Casual Shirt",
+    "name2": "Denim Jacket",
+    "brand": "Denim",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Elegant dress for special occasions.",
+    "price": 599,
+    "image": "../IMG/mshirt1.jpg",
+    "images": [
+      "../IMG/mshirt1.jpg",
+      "../IMG/mshirt2.jpg",
+      "../IMG/mshirt3.jpg"
+    ],
+    "gender": "Male",
+    "category": "Shirts",
+    "tag": [
+      "shirts",
+      "men",
+      "denim",
+      "men denim",
+      "men denim shirts",
+      "men shirts"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Campus Sutra Men's Sweater",
+    "name2": "Campus Sweater",
+    "brand": "Campus",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Warm and cozy sweater for colder days.",
+    "price": 1009,
+    "image": "../IMG/hoodie1.jpg",
+    "images": [
+      "../IMG/hoodie1.jpg",
+      "../IMG/hoodie2.jpg",
+      "../IMG/hoodie3.jpg"
+    ],
+    "gender": "Male",
+    "category": "Hoodies",
+    "tag": ["sweater", "hoodies", "campus", "men hoodie", "men sweater"]
+  },
+  {
+    "id": 3,
+    "name": " Men Regular Stretch Stylish",
+    "name2": "Campus Shorts",
+    "brand": "Denim",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Casual and comfortable shorts for summer.",
+    "price": 499,
+    "image": "../IMG/mshorts1.jpg",
+    "images": [
+      "../IMG/mshorts1.jpg",
+      "../IMG/mshorts2.jpg",
+      "../IMG/mshorts3.jpg"
+    ],
+    "gender": "Male",
+    "category": "Pants",
+    "tag": [
+      "pants",
+      "jeans",
+      "denim",
+      "men pants",
+      "men denim pants",
+      "mens shorts"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Men's Casual Round Neck T-Shirt - Soft Grindle",
+    "name2": "FYLTR T-Shirts",
+    "brand": "FYLTR",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Stylish and versatile blouse for any occasion.",
+    "price": 589,
+    "image": "../IMG/tshirt1.jpg",
+    "images": [
+      "../IMG/tshirt1.jpg",
+      "../IMG/tshirt2.jpg",
+      "../IMG/tshirts3.jpg"
+    ],
+    "gender": "Male",
+    "category": "T-Shirt",
+    "tag": ["tshirts", "men tshirts", "campus", "men wear", "men denim"]
+  },
+  {
+    "id": 5,
+    "name": " Men's Stretch ZARA Jacket",
+    "name2": "ZARA Jacket",
+    "brand": "ZARA",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Lightweight jacket for cool weather.",
+    "price": 1119,
+    "image": "../IMG/mjacket1.jpg",
+    "images": [
+      "../IMG/mjacket1.jpg",
+      "../IMG/mjacket2.jpg",
+      "../IMG/mjacket3.jpg"
+    ],
+    "gender": "Male",
+    "category": "Hoodies",
+    "tag": ["sweater", "hoodies", "campus", "men hoodie", "men sweater", "zara"]
+  },
+  {
+    "id": 6,
+    "name": "Men's Contrast Stitch Stretchable Jeans",
+    "name2": "Monster's Jeans",
+    "brand": "Monster's",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Flattering and trendy skirt for a feminine look.",
+    "price": 689,
+    "image": "../IMG/mpants1.jpg",
+    "images": [
+      "../IMG/mpants1.jpg",
+      "../IMG/mpants2.jpg",
+      "../IMG/mpants3.jpg"
+    ],
+    "gender": "Male",
+    "category": "Pants",
+    "tag": [
+      "pants",
+      "jeans",
+      "monsters",
+      "men pants",
+      "men monsters pants",
+      "zara"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Campus Sutra Men's Hoodie",
+    "name2": "Campus Hoodie",
+    "brand": "Campus",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Casual and cozy hoodie for a relaxed style.",
+    "price": 679,
+    "image": "../IMG/mhoodie1.jpg",
+    "images": [
+      "../IMG/mhoodie1.jpg",
+      "../IMG/mhoodie2.jpg",
+      "../IMG/mhoodie3.jpg"
+    ],
+    "gender": "Male",
+    "category": "Hoodies",
+    "tag": ["sweater", "hoodies", "campus", "men hoodie", "men sweater"]
+  },
+  {
+    "id": 8,
+    "name": "Inkast Denim Co. Men's Solid Slim Casual Shirt ",
+    "name2": "Inkast Shirt",
+    "brand": "Amazon",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Classic polo shirt for a smart-casual look.",
+    "price": 799,
+    "image": "../IMG/denimshirt1.jpg",
+    "images": [
+      "../IMG/denimshirt1.jpg",
+      "../IMG/denimshirt2.jpg",
+      "../IMG/denimshirt3.jpg"
+    ],
+    "gender": "Male",
+    "category": "Shirts",
+    "tag": ["shirts", "men", "Inkast", "men denim", "men denim shirts"]
+  },
+  {
+    "id": 9,
+    "name": "Miss Chase Women's Light Blue Regular Denim Shorts",
+    "name2": "Miss Chase Shorts",
+    "brand": "Miss Chase",
+    "sizes": ["S ", "XL ", "XXL ", "M "],
+    "description": "A comfortable and stylish t-shirt.",
+    "price": 999,
+    "image": "../IMG/shorts1.jpg",
+    "images": [
+      "../IMG/shorts1.jpg",
+      "../IMG/shorts2.jpg",
+      "../IMG/shorts3.jpg"
+    ],
+    "gender": "Female",
+    "category": "Pants",
+    "tag": [
+      "pants",
+      "jeans",
+      "Miss Chase",
+      "Women pants",
+      "Women Miss Chase pants",
+      "women shorts"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Denim FASHION Women's Relaxed Fit Full Sleeve Round Neck Top",
+    "name2": "Denim Shirt",
+    "brand": "Denim",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Classic denim jeans for everyday wear.",
+    "price": 1499,
+    "image": "../IMG/top1.jpg",
+    "images": ["../IMG/top1.jpg", "../IMG/top2.jpg", "../IMG/top3.jpg"],
+    "gender": "Female",
+    "category": "Shirts",
+    "tag": ["shirts", "shirt", "denim", "women shirts", "women denim shirts"]
+  },
+  {
+    "id": 11,
+    "name": "Nifty Women's Slim Fit Cotton Jeans",
+    "name2": "Nifty Jeans",
+    "brand": "Nifty",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Elegant dress for special occasions.",
+    "price": 799,
+    "image": "../IMG/wjeans1.jpg",
+    "images": [
+      "../IMG/wjeans1.jpg",
+      "../IMG/wjeans2.jpg",
+      "../IMG/wjeans3.jpg"
+    ],
+    "gender": "Female",
+    "category": "Pants",
+    "tag": ["pants", "jeans", "nifty", "Women pants", "Women nifty pants"]
+  },
+  {
+    "id": 12,
+    "name": "GRECIILOOKS Hoodies for Women",
+    "name2": "GRECIILOOKS Hoodie",
+    "brand": "GRECIILOOKS",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Warm and cozy sweater for colder days.",
+    "price": 399,
+    "image": "../IMG/whoodie1.jpg",
+    "images": [
+      "../IMG/whoodie1.jpg",
+      "../IMG/whoodie2.jpg",
+      "../IMG/whoodie3.jpg"
+    ],
+    "gender": "Female",
+    "category": "Hoodies",
+    "tag": [
+      "hoodie",
+      "hoodies",
+      "GRECIILOOKS",
+      "Women hoodie",
+      "Women GRECIILOOKS hoodie"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Jockey Women's Relaxed Fit Cotton Track Pant ",
+    "name2": "Jockey Pant",
+    "brand": "Jockey",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Casual and comfortable shorts for summer.",
+    "price": 399,
+    "image": "../IMG/wpant1.jpg",
+    "images": ["../IMG/wpant1.jpg", "../IMG/wpant2.jpg", "../IMG/wpant3.jpg"],
+    "gender": "Female",
+    "category": "Pants",
+    "tag": [
+      "pants",
+      "tracks",
+      "Jockey",
+      "Women pants",
+      "Women Jockey pants",
+      "women shorts"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Miraan Women's Long Sleeve Casual Denim Shirt",
+    "name2": "Miraan Shirt",
+    "brand": "Miraan",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Stylish and versatile blouse for any occasion.",
+    "price": 589,
+    "image": "../IMG/wshirt1.jpg",
+    "images": [
+      "../IMG/wshirt1.jpg",
+      "../IMG/wshirt2.jpg",
+      "../IMG/wshirt3.jpg"
+    ],
+    "gender": "Female",
+    "category": "Shirts",
+    "tag": ["shirts", "shirt", "Miraan", "Women shirts", "Women Miraan shirts"]
+  },
+  {
+    "id": 15,
+    "name": "FUNDAY FASHION Full Sleeve Blue Solid Women's Denim Jacket",
+    "name2": "FUNDAY Jacket",
+    "brand": "FUNDAY",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Lightweight jacket for cool weather.",
+    "price": 1119,
+    "image": "../IMG/wjacket1.jpg",
+    "images": [
+      "../IMG/wjacket1.jpg",
+      "../IMG/wjacket2.jpg",
+      "../IMG/wjacket1.jpg"
+    ],
+    "gender": "Female",
+    "category": "Hoodies",
+    "tag": [
+      "hoodie",
+      "hoodies",
+      "FUNDAY",
+      "Women hoodie hoodie",
+      "Women FUNDAY hoodie"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "StyleStone Women's Denim Hi Lo Frayed Hemline Skirt ",
+    "name2": "StyleStone Skirt",
+    "brand": "StyleStone",
+    "sizes": ["S", "XL", "XXL", "M"],
+    "description": "Flattering and trendy skirt for a feminine look.",
+    "price": 429,
+    "image": "../IMG/skirt1.jpg",
+    "images": ["../IMG/skirt1.jpg", "../IMG/skirt2.jpg", "../IMG/skirt3.jpg"],
+    "gender": "Female",
+    "category": "Pants",
+    "tag": [
+      "Skirts",
+      "skirt",
+      "StyleStone",
+      "Women Skirts",
+      "Women StyleStone Skirts",
+      "women shorts"
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+/* BannerSection.css */
+
+/* Style for the banner section container */
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Style for the banner image */
+.banner-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* WhyChooseUsSection.css */
+
+.why-choose-us-section {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.why-choose-us-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reasons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.reason {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.reason:hover {
+  transform: scale(1.05);
+}
+
+.reason img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.reason p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .reasons-container {
+    grid-template-columns: 1fr;
+  }
+}

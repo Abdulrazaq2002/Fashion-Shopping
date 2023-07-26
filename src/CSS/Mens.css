@@ -1,0 +1,93 @@
+/* Mens.css */
+
+/* General styles for the fashion-section section */
+.fashion-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+/* Styling for the banner */
+.banner {
+  position: relative;
+}
+
+/* Styling for the banner image */
+.bannerimage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styling for the shopping button */
+.shoppingbutton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: black;
+  font-weight: bolder;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.shoppingbutton:hover {
+  background-color: white;
+}
+
+/* Styling for the header */
+.headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for the "More" link */
+.morelink {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Styling for the product container */
+.productcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Styling for the product card */
+.productcard {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.productcard img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.productcard h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Add responsive styles using media queries */
+@media (max-width: 768px) {
+  /* Adjust the grid layout for product cards on smaller screens */
+  .productcontainer {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  /* Additional responsive styles as needed */
+}
